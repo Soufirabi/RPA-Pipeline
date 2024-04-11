@@ -51,7 +51,7 @@ steps:
   uses: actions/checkout@v2
 - name: Build Nuget Package
   shell: pwsh
-  run: ${{ github.workspace }}\Scripts\UiPathPack.ps1
+  run: .\Scripts\UiPathPack.ps1 -projectJson ${{ github.workspace }}\project.json -outputFolder ${{ github.workspace }}\package
 - name: Upload UiPath Artifacts
   uses: actions/upload-artifact@v2
   - name: Upload UiPath Artifacts
