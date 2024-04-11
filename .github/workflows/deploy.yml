@@ -57,7 +57,7 @@ steps:
   with:
 - name: Artifacts
     path: |
-      package/*.nupkg
+      package/*.*
       scripts/*.ps1
 publish-uipath-nuget-package:
 needs: build-uipath-nuget-package
