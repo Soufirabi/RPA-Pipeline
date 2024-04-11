@@ -61,7 +61,7 @@ steps:
       scripts/*.ps1
 publish-uipath-nuget-package:
 needs: build-uipath-nuget-package
-
+runs-on: Windows-latest
 steps:
 - name: Download UiPath Artifacts
   uses: actions/download-artifact@v2
