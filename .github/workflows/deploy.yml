@@ -44,7 +44,7 @@ steps:
 build-uipath-nuget-package:
 # You should be able to run on windows 2019 or windows latest
 needs: cleaner
-runs-on: windows-latest
+runs-on: Windows-latest
 steps:
 - name: Check out repository code
   # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
@@ -55,7 +55,7 @@ steps:
 - name: Upload UiPath Artifacts
   uses: actions/upload-artifact@v2
   with:
-    name: Artifacts
+- name: Artifacts
     path: |
       package/*.nupkg
       scripts/*.ps1
