@@ -56,7 +56,7 @@ steps:
   uses: actions/upload-artifact@v2
   with:
 - name: Artifacts
-    path: |
+    path: /
       package/*.*
       scripts/*.ps1
 publish-uipath-nuget-package:
