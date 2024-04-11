@@ -54,10 +54,12 @@ steps:
   run: ${{ github.workspace }}\Scripts\UiPathPack.ps1 ${{ github.workspace }}\project.json -destination_folder ${{ github.workspace }}\package
 - name: Upload UiPath Artifacts
   uses: actions/upload-artifact@v2
+  - name: Upload UiPath Artifacts
+  uses: actions/upload-artifact@v2
   with:
-- name: Artifacts
-    run: |
-      package/*.*
+    name: Artifacts
+    path: |
+      package/*
       scripts/*.ps1
 publish-uipath-nuget-package:
 needs: build-uipath-nuget-package
