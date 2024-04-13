@@ -3,7 +3,7 @@ name: Development Workflow
 on:
   push:
     branches:
-      - main  # Example branch, replace with your branch
+      - Dev/CICDProcess  # Example branch, replace with your branch
 
 env:  # Defining environment variables
   PROJECT_NAME: CICDProcess4
