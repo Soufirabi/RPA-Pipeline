@@ -8,7 +8,7 @@ on:
 env:  # Defining environment variables
   PROJECT_NAME: CICDProcess4
   ORCH_FOLDER: CICDdev
-  ORCH_URL: https://cloud.uipath.com/h4hfxonwud
+  ORCH_URL: https://cloud.uipath.com/
   ORCH_TENANT: DefaultTenant
   ORCH_CLIENT_ID: ${{ secrets.ORCH_CLIENT_ID_Dev }}
   ORCH_USER_KEY: ${{ secrets.ORCH_USER_KEY_Dev }}
