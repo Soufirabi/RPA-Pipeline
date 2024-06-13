@@ -1,6 +1,6 @@
 {
   "name": "CICDProcess4",
-  "projectId": "b7716d2d-f516-4474-80b7-c9b6387371b4",
+  "projectId": "b1db22a8-bf4a-4387-9f6c-525bec0c3fb9",
   "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
@@ -51,7 +51,7 @@
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "967e39de-0f0f-49c5-b3fe-0f93c87bc20a",
+      "uniqueId": "74197c7f-b2fd-4a8f-9a4a-de96d6eec0d2",
       "input": [],
       "output": []
     }
